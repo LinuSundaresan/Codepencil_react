@@ -1,0 +1,43 @@
+.header {
+    background-color: black;
+    padding: 10px;
+}
+
+/* .container {
+    margin: 10px;
+    padding: 10px;
+
+} */
+
+.input-container {
+    /* margin: 10px;
+    padding: 10px; */
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.input {
+    width: 30%;
+    height: 40vh;
+    background-color: #282828;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.input::-webkit-scrollbar {
+    width: 1px;
+}
+
+.output iframe::-webkit-scrollbar {
+    width: 1px;
+}
+
+.output {
+    margin: 10px;
+    padding: 10px;
+}
